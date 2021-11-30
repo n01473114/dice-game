@@ -4,32 +4,18 @@
     <meta charset="utf-8">
     <title>Dice Roll Game</title>
     <meta name="description" content="A small dice roll game">
-    <meta name="author" content="[Your name here]">
+    <meta name="author" content="José Sandoval">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/reset.css"><!-- you may remove this -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-
-    <!--
-      Build a "static prototype" interface for the application using only
-      HTML & CSS (note: images are provided), such that the document's 
-      user-facing output looks something like this:
-
-           You rolled: 3
-           _____________
-          |             |
-          |  0          |
-          |      0      |
-          |          0  |
-          |_____________|
-          _______________
-         | Roll the dice |
-          ⎺⎺⎺⎺⎺⎺⎺⎺⎺⎺⎺⎺⎺⎺⎺
-      
-      Before you begin, consider the various ways to achieve this interface using HTML/CSS.
-    -->
-    
+    <h1 class="title">Dice Game</h1>
+    <p class="you-got" id="currentRoll">You rolled: 3</p>
+    <div id=diceFace class="dice-face">
+    <img src="./img/dice3.svg" alt="Dice face 3">
+    </div>
+    <button type="button" class="roll-button">Roll the dice!</button>
+ 
     <script src="js/script.js"></script>
   </body>
 </html>

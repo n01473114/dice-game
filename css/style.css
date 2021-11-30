@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.you-got {
+    font-size: larger;
+}
+
+.dice-face {
+    margin: 0 auto;
+    max-width: 15rem;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+}
+
+.roll-button {
+    margin: 2rem;
+    font-size: large;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+}
