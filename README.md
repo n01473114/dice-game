@@ -25,6 +25,6 @@
 
 ## Part 2
 
-Roll **two** dice to mimic the results of the casino game "craps". Replace the result message (_"Your rolled: ____"_) with the appropriate message based on the results table below.
+Roll **two** dice to mimic the results of the casino game "craps". Replace the result message (*"Your rolled: ____"*) with the appropriate message based on the results table below.
 
 ![Craps game results](./img/craps.png)
